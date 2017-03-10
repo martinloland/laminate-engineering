@@ -19,6 +19,6 @@ for ply in plyList:
   ply.setDegradingFactors(1, 0.1, 0.1, 0.5)
 lam.plotReactionForce(l, 0,'.\img\plot1')
 ```
-Will plot the stress-strain response in the x-direction:
+Will plot the stress-strain response in the x-direction until ultimate failure:
 
 ![alt tag](https://raw.githubusercontent.com/martinloland/laminate-engineering/master/img/plot1.png)
