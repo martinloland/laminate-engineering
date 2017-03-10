@@ -12,6 +12,7 @@ A library for python to do laminate calculations. Uses numpy and matplotlib.
 ##Example
 
 ```
+import laminates as lam
 plyList = lam.plyListFromCSV('layup.csv')
 for ply in plyList:
   ply.setStrength(990, 760, 35, 160, 55)
