@@ -19,4 +19,5 @@ for ply in plyList:
 lam.plotReactionForce(l, 0,'.\img\plot1')
 ```
 Will create the following image:
+
 ![alt tag](https://raw.githubusercontent.com/martinloland/laminate-engineering/master/img/plot1.png)
