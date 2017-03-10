@@ -17,6 +17,7 @@ plyList = lam.plyListFromCSV('layup.csv')
 for ply in plyList:
   ply.setStrength(990, 760, 35, 160, 55)
   ply.setDegradingFactors(1, 0.1, 0.1, 0.5)
+l = lam.Laminate(plyList)
 lam.plotReactionForce(l, 0,'.\img\plot1')
 ```
 Will plot the stress-strain response in the x-direction until ultimate failure:
